@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spooky Coming Soon Page</title>
+    <style>
+        /* Reset margin and padding for all elements */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Full-screen setup */
+        body, html {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Background styling */
+        body {
+            background: url('anniyan.webp') no-repeat center center fixed;
+            background-size: cover;
+            color: #f2f2f2;
+            text-align: center;
+        }
+
+        /* Centered message styling */
+        .content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+        }
+
+  h1 {
+            font-size: 4em;
+            font-weight: bold;
+            color: #ffffff; /* Initial white color */
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.9), 0 0 20px #ffffff;
+            transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition */
+        }
+
+        /* Blood-drip hover effect */
+        h1:hover {
+            color: #8b0000; /* Blood-red color */
+            text-shadow: 
+                2px 2px 0 #8b0000,
+                -2px 2px 0 #8b0000,
+                0 4px 5px #8b0000,
+                2px 6px 10px rgba(139, 0, 0, 0.7),
+               
+       
+        }
+
+        /* "Developed by" link styling */
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+            font-size: 1em;
+        }
+
+        .footer a {
+            color:#36454F;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer a:hover {
+            color: #ff6666;
+        }
+
+        /* Responsive font scaling */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5em;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Coming Soon</h1>
+    </div>
+    <div class="footer">
+        <a href="https://www.instagram.com/lipstickeraservishal/">@lipstickeraservishal</a>
+    </div>
+</body>
+</html>
